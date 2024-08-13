@@ -1,6 +1,5 @@
 const gridSide = 600;
-let rows = 16;
-let cols = 16;
+let squaresPerSide = 16;
 
 const sketchArea = document.querySelector("#sketch-area");
 sketchArea.style.width = `${sketchArea}px`;
@@ -11,11 +10,11 @@ function setBackgroundColor() {
 }
 
 function createGridCells() {
-  for (let i = 0; i < rows * cols; i++) {
+  for (let i = 0; i < squaresPerSide * squaresPerSide; i++) {
     const gridCell = document.createElement("div");
 
-    gridCell.style.width = `${gridSide / cols - 2}px`;
-    gridCell.style.height = `${gridSide / rows - 2}px`;
+    gridCell.style.width = `${gridSide / squaresPerSide - 2}px`;
+    gridCell.style.height = `${gridSide / squaresPerSide - 2}px`;
     gridCell.classList.add("cell");
 
     sketchArea.appendChild(gridCell);
