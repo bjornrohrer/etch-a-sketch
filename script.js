@@ -10,11 +10,13 @@ function setBackgroundColor() {
 }
 
 function createGridCells() {
-  for (let i = 0; i < squaresPerSide * squaresPerSide; i++) {
+  const numberOfSquares = squaresPerSide * squaresPerSide;
+  const widthOrHeight = `${gridSide / squaresPerSide - 2}px`;
+  for (let i = 0; i < numberOfSquares; i++) {
     const gridCell = document.createElement("div");
 
-    gridCell.style.width = `${gridSide / squaresPerSide - 2}px`;
-    gridCell.style.height = `${gridSide / squaresPerSide - 2}px`;
+    gridCell.style.width = `${widthOrHeight}px`;
+    gridCell.style.height = `${widthOrHeight}px`;
     gridCell.classList.add("cell");
 
     sketchArea.appendChild(gridCell);
