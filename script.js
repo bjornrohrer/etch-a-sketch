@@ -5,6 +5,8 @@ const sketchArea = document.querySelector("#sketch-area");
 sketchArea.style.width = `${sketchArea}px`;
 sketchArea.style.height = `${sketchArea}px`;
 
+const sliderContainer = document.querySelector("#slider-container");
+
 function setBackgroundColor() {
   this.style.backgroundColor = "black";
 }
