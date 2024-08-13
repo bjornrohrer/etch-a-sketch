@@ -1,4 +1,4 @@
-const gridSide = 600;
+const gridSide = 960;
 let squaresPerSide = 16;
 
 const sketchArea = document.querySelector("#sketch-area");
