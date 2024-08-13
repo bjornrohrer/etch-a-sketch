@@ -10,6 +10,6 @@ function createGridCells() {
   for (let i = 0; i < rows * cols; i++) {
     const gridCell = document.createElement("div");
 
-    gridCell.style.width = `${gridSide / cols}`;
+    gridCell.style.width = `${gridSide / cols - 2}px`;
   }
 }
