@@ -5,8 +5,6 @@ const sketchArea = document.querySelector("#sketch-area");
 sketchArea.style.width = `${sketchArea}px`;
 sketchArea.style.height = `${sketchArea}px`;
 
-const popup = document.querySelector("#popup");
-
 function setBackgroundColor() {
   this.style.backgroundColor = "black";
 }
