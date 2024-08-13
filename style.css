@@ -18,3 +18,7 @@ body {
 .cell {
   border: 1px solid whitesmoke;
 }
+
+#slider-container {
+  margin: 0 auto;
+}
