@@ -11,3 +11,7 @@ body {
   display: flex;
   margin: 100px auto;
 }
+
+.cell {
+  border: 1px solid whitesmoke;
+}
