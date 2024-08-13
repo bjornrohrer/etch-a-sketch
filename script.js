@@ -30,4 +30,4 @@ function createGridCells(squaresPerSide) {
   }
 }
 
-createGridCells();
+createGridCells(16);
