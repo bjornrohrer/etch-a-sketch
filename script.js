@@ -8,6 +8,7 @@ sketchArea.style.height = `${sketchArea}px`;
 const sliderContainer = document.querySelector("#slider-container");
 const slider = document.querySelector("#slider");
 const sliderValue = document.querySelector("#slider-value");
+sliderValue.textContent = `${slider.value} x ${slider.value}`;
 
 function setBackgroundColor() {
   this.style.backgroundColor = "black";
