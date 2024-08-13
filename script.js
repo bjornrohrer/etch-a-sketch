@@ -17,3 +17,5 @@ function createGridCells() {
     sketchArea.appendChild(gridCell);
   }
 }
+
+createGridCells();
