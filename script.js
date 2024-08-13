@@ -15,8 +15,8 @@ function createGridCells() {
   for (let i = 0; i < numberOfSquares; i++) {
     const gridCell = document.createElement("div");
 
-    gridCell.style.width = `${widthOrHeight}px`;
-    gridCell.style.height = `${widthOrHeight}px`;
+    gridCell.style.width = widthOrHeight;
+    gridCell.style.height = widthOrHeight;
     gridCell.classList.add("cell");
 
     sketchArea.appendChild(gridCell);
