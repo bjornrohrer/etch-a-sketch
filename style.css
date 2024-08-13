@@ -22,3 +22,10 @@ body {
 #slider-container {
   margin: 0 auto;
 }
+
+.slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 25px;
+  width: 100%;
+}
